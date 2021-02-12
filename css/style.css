@@ -1,0 +1,132 @@
+@font-face{font-family: font1; src: url(/font/fonte.woff2);}
+
+*{
+    outline: none;
+}
+
+body{
+    background-color: rgb(41, 41, 41);
+
+}
+
+.col-1{
+    background-color: rgb(240, 240, 240);
+    width: 300px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border: transparent 0px solid;
+    border-radius: 7px;
+    position: relative;
+    padding: 0;
+    top: 31vh;
+}
+
+.cent{
+    text-align: center;
+    position: relative;
+}
+
+#f{
+    margin-top: 0px;
+}
+
+.inps-f{
+    margin-top: 20px;
+}
+
+.p{
+    min-width: 100%;
+    width: 100%;
+    height: 40px;
+    top: -1.7px;
+    margin: 0;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    position: relative;
+    background-color: #4d4d4d;
+    color: #ffffff;
+    font-family: font1;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.p p{
+    top: 10px;
+    position: relative;
+}
+
+.btn-s{
+    width: 10px;
+    height: 10px;
+    border: #629aa9 2px solid;
+    border-radius: 15px;
+    background-color: #629aa9;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    padding: 5px;
+    bottom: 5px;
+    user-select: none;
+}
+
+
+
+#v1, #v2, #v3{
+    width: 80px;
+    height: 25px;
+    position: relative;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    color: #242424;
+}
+
+#v3{
+    width: 100px;
+    height: 20px;
+}
+
+.item{
+    position: absolute;
+    display: block;
+}
+
+.item label{
+    display: block;
+    padding: 1px;
+    position: relative;
+}
+
+.btn-s:hover{
+    filter: saturate(5)
+
+}
+
+.item ul li {
+    display: block;
+    padding-top: 10px;
+
+}
+
+.item ul{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s linear;
+
+}
+
+.item input:checked ~ ul{
+    height: auto;
+    max-height: 200px;
+    transform: all;
+    background-color: transparent;
+}
+
+.item input{
+    display: none;
+}
