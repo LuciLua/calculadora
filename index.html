@@ -18,20 +18,23 @@
             </form>
             <div class="item">
                 <input type="checkbox" name="" id="check">
-                <label for="check"><input type="button" value="" class="inps-f"><img ondragstart="return false;" src="img/m-s.png" alt="" class="btn-s" ><br></label>
-                <ul>
-                    <li><input type="button" value="" class="inps-f" onclick="cal()"><img onclick="cal()" ondragstart="return false;" src="img/1.png" alt="" class="btn-s"></li><br>
-                    <li><input type="button" value="" class="inps-f" onclick="cal2()"><img  onclick="cal2()" ondragstart="return false;" src="img/2.png" alt="" class="btn-s"></li><br>
-                    <li><input type="button" value="" class="inps-f" onclick="cal3()"><img onclick="cal3()" ondragstart="return false;" src="img/3.png" alt="" class="btn-s"></li><br>
-                    <li><input type="reset" value="" class="inps-f" onclick="reset()"><img onclick="reset()" ondragstart="return false;" type="reset" src="img/reset.png" alt="" class="btn-s"></li><br>
+                <label for="check"><input title="Menu" type="button" value="" class="inps-f"><img title="Menu" ondragstart="return false;" src="img/m-s.png" alt="" class="btn-s" ><br></label>
+                <ul class="ajust1">
+                    <li><input title="Add" type="button" value="" class="inps-f" onclick="cal()"><img onclick="cal()" title="Add" ondragstart="return false;" src="img/1.png" alt="" class="btn-s"></li><br>
+                    <li><input title="Subtract" type="button" value="" class="inps-f" onclick="cal2()"><img  onclick="cal2()" title="Subtract" ondragstart="return false;" src="img/2.png" alt="" class="btn-s"></li><br>
+                    <li><input title="Multiply" type="button" value="" class="inps-f" onclick="cal3()"><img onclick="cal3()" title="Multiply" ondragstart="return false;" src="img/3.png" alt="" class="btn-s"></li><br>
+                    <li><input title="Reset" type="reset" value="" class="inps-f" onclick="reset()"><img onclick="reset()" title="Reset" ondragstart="return false;" type="reset" src="img/reset.png" alt="" class="btn-s"></li><br>
                 </ul>
             </div>
+            <div class="ajust2">
             <ul id="teste"> 
-                <li class="out"><input type="button" value="" class="inps-f" onclick="mk()"><img onclick="mk()" ondragstart="return false;" src="img/test.png" alt="" class="btn-s"></li><br>
+                <li class="out"><input title="Random Value" type="button" value="" class="inps-f" onclick="mk()"><img onclick="mk()" title="Random Value" ondragstart="return false;" src="img/test.png" alt="" class="btn-s"></li><br>
+                <li class="out"><input title="GitHub" type="button" value="" class="inps-f"><a href="http://github.com/lucilua/calculadora"><img title="GitHub" ondragstart="return false;" src="img/git.png" alt="" class="btn-s"></a></li><br>
             </ul>
-            
+            </div>
         </div>
     </div>
+    <p id="last">Em desenvolvimento</p>
 </body>
 <script src="js/app.js"></script>
 </html>

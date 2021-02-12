@@ -42,7 +42,7 @@ function reset(){
 document.querySelector('.out').addEventListener('click', function(){
     function mk(length){
             var res = '';
-            var ch = '012345';
+            var ch = '0123456789';
             var contCh = ch.length;
             
             for (var i = 0; i < length; i++){
