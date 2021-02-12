@@ -37,3 +37,23 @@ function cal3(){
 function reset(){
     document.formu.reset();
 }
+
+
+document.querySelector('.out').addEventListener('click', function(){
+    function mk(length){
+            var res = '';
+            var ch = '012345';
+            var contCh = ch.length;
+            
+            for (var i = 0; i < length; i++){
+                res += ch.charAt(Math.floor(Math.random() * contCh));
+                  }
+    
+            return res;
+                }
+        document.formu.v1.value = v1;
+        var v1 = document.formu.v1.value = mk(2);
+        
+        document.formu.v2.value = v2;
+        var v2 = document.formu.v2.value = mk(2);
+        });

@@ -20,6 +20,7 @@ body{
     position: relative;
     padding: 0;
     top: 31vh;
+    box-shadow: black 0px 0px 10px;
 }
 
 .cent{
@@ -49,7 +50,7 @@ body{
     font-family: font1;
     text-transform: uppercase;
     text-align: center;
-
+    font-weight: bold;
 }
 
 .p p{
@@ -58,8 +59,10 @@ body{
 }
 
 .btn-s{
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     border: #629aa9 2px solid;
     border-radius: 15px;
     background-color: #629aa9;
@@ -69,8 +72,9 @@ body{
     cursor: pointer;
     position: relative;
     padding: 5px;
-    bottom: 5px;
+    bottom: 0px;
     user-select: none;
+    box-shadow: rgba(0, 0, 0, 0.33) 0px 0px 7px;
 }
 
 
@@ -109,7 +113,9 @@ body{
 
 .item ul li {
     display: block;
-    padding-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 1px;
+
 
 }
 
@@ -122,11 +128,23 @@ body{
 
 .item input:checked ~ ul{
     height: auto;
-    max-height: 200px;
+    max-height: 240px;
     transform: all;
     background-color: transparent;
 }
 
 .item input{
     display: none;
+}
+
+.out{
+    padding: 5px;
+}
+
+.out input{
+    display: none;
+}
+
+ul li{
+    overflow: hidden;
 }
