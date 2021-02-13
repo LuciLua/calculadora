@@ -171,10 +171,11 @@ ul li{
     top: -159px;
     left: 7px;
 }
+
 #last{
     color: rgb(114, 114, 114);
     font-family: monospace;
     position: relative;
-    text-align: center;
-    top: 265px;
+    top: 120px;
+    left: 85px;
 }
